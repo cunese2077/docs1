@@ -7,6 +7,7 @@ module.exports = {
     ['meta', { name: 'keywords', content: 'vuepress介绍' }]
   ],
     themeConfig: {
+      lastUpdated: '更新时间', // string | boolean
       logo: '/assets/img/logo.png',
       nav: [
         { text: 'Home', link: '/' },
