@@ -1,5 +1,11 @@
 // .vuepress/config.js
 module.exports = {
+  title: "grg",
+  description: "但是吧",
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['meta', { name: 'keywords', content: 'vuepress介绍' }]
+  ],
     themeConfig: {
       logo: '/assets/img/logo.png',
       nav: [
